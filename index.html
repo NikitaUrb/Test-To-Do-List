@@ -7,12 +7,12 @@
 </head>
 <body>
 	<div class='box'>
-		<div class='timeNow'>
-			<div class='day' id='day'></div>
-			<div class='month' id='month'></div>
-			<div class='year' id='year'></div>
-			<div class='now'>Сегодня</div><br>
-		</div>
+		
+		<table class="timeNow">
+		<tr><td rowspan="2" class='day' id='day'>день</td><td class='month' id='month'>месяц</td> <td rowspan="2" colspan="2" class="now">сегодня</td></tr>
+		<tr><td class='year' id='year'>год</td></tr>
+		</table>
+
 		<ul class='listToDo' id="listToDo">
 		</ul>
 
