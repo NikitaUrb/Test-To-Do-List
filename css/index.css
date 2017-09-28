@@ -3,20 +3,24 @@ body {
 }
 
 .listToDo {
+	list-style-type: none;
 	padding: 0px;
-	list-style-image: none;
-	list-style-position: inside;
-	list-style-type: circle;
-	direction: rtl;
+	margin: 0px;
 }
 
 .listToDo li {
 	font-size: 25px;
 	text-align: left;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-li:active {
+ul li.complete {
 	list-style-image: url(../img/ok.png);
+	direction: rtl;
+	list-style-position: inside;
 }
 
 .addToDo {

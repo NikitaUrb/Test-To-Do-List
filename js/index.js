@@ -27,5 +27,14 @@ function toDoAdd() {
 	document.getElementById('inquiry').value = "";
 }
 
+
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('complete');
+  }
+}, false);
+
+
 console.log("Я все еще работаю");
 
