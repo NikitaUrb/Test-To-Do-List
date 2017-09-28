@@ -8,6 +8,16 @@ function time() {
 }
 time();
 
+function block(objName) {
+	object = document.getElementById(objName);
+	if (object.style.display == 'none'){
+		object.style.display = 'block';
+		}
+	else {
+		object.style.display = 'none';
+	}
+}
+
 function toDoAdd() {
 	valueToDo = document.getElementById('inquiry').value;
 	list = document.getElementById('listToDo');
