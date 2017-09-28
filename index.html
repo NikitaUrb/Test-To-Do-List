@@ -8,16 +8,16 @@
 <body>
 	<div class='box'>
 		<div class="timeNow">
-			<div class='day'></div>
-			<div class='month'></div>
-			<div class='year'></div>
+			<div class='day' id="day"></div>
+			<div class='month' id="month"></div>
+			<div class='year' id="year"></div>
 			<div class='now'>Сегодня</div><br>
 		</div>
-		<ul class="listToDo">
+		<ul class="listToDo" id="listToDo">
 		</ul>
 
 		<div class="inquiryToDo">
-			<input type="text" class="inquiry" placeholder="Введите задачу">
+			<input type="text" class="inquiry" id="inquiry" placeholder="Введите задачу">
 			<button onclick="toDoAdd()" class="addToDo">+</button>
 		</div>
 	</div>

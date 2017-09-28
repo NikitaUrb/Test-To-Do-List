@@ -9,9 +9,12 @@ function time() {
 time();
 
 function toDoAdd() {
-	var valueToDo = document.getElementById('inquiry').value;
-	var list = document.getElementById('listToDo');
-	var li = document.createElement('li');
+	valueToDo = document.getElementById('inquiry').value;
+	list = document.getElementById('listToDo');
+	li = document.createElement('li');
+	console.log(valueToDo);
+	console.log(list);
+	console.log(li);
 	li.innerHTML = valueToDo;
 	list.appendChild(li);
 	document.getElementById('inquiry').value = "";
