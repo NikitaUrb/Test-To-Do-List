@@ -8,7 +8,9 @@ table {
 }
 
 .listToDo {
-	list-style-type: none;
+	direction: rtl;
+	list-style-type: circle;
+	list-style-position: inside;
 	margin: 0px;
 	padding: 0px;
 }
