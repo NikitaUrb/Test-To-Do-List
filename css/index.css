@@ -2,10 +2,15 @@ body {
 	background-color: #FFEFD5;
 }
 
+table {
+	height: 80px;
+	width: 100%;
+}
+
 .listToDo {
 	list-style-type: none;
-	padding: 0px;
 	margin: 0px;
+	padding: 0px;
 }
 
 .listToDo li {
@@ -18,20 +23,25 @@ body {
 }
 
 ul li.complete {
-	list-style-image: url(../img/ok.png);
+	color: #b3b3b3;
 	direction: rtl;
+	list-style-image: url(../img/ok.png);
 	list-style-position: inside;
 }
 
 .addToDo {
 	background-color:  #00FF7F;
-	border-radius: 100%;
-	border-color: #66CDAA; 
+	border-color: #66CDAA;
+	border-radius: 100%; 
 	color: #66CDAA;
 	font-size: 40px;
 	height: 60px;
 	margin-left: 95px;
 	width: 60px;
+}
+
+.buttonAdd {
+	width: 70px;
 }
 
 .box {
@@ -48,21 +58,22 @@ ul li.complete {
 
 .day {
 	font-size: 50px;
-	text-align: center;
-	width: 60px;
-	height: 80px;
+	text-align: right;
 }
 
 .month , .year {
-	font-size: 25px;
-	text-align: center;
-	height: 40px;
-	width: 65px;
+	font-size: 20px;
+}
+
+.month {
+	vertical-align: bottom;
+}
+
+.year {
+	vertical-align: top;
 }
 
 .now {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
-	height: 80px;
-	width: 125px;
 }
