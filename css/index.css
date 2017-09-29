@@ -10,25 +10,25 @@ table {
 .listToDo {
 	direction: rtl;
 	list-style-type: circle;
-	list-style-position: inside;
-	margin: 0px;
-	padding: 0px;
+	list-style-position: outside;
 }
 
 .listToDo li {
 	font-size: 25px;
 	text-align: left;
 	-webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
 }
 
 ul li.complete {
 	color: #b3b3b3;
 	direction: rtl;
 	list-style-image: url(../img/ok.png);
-	list-style-position: inside;
+	list-style-position: outside;
+	width: 100%;
 }
 
 .addToDo {
