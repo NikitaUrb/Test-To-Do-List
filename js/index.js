@@ -2,8 +2,22 @@ console.log("Я работаю.");
 
 function time() {
 	const date = new Date();
+	const month = [
+		'Jan.',
+		'Feb.',
+		'Mar.',
+		'Apr.',
+		'May',
+		'June',
+		'July',
+		'Aug',
+		'Sept.',
+		'Oct. ',
+		'Nov.',
+		'Dec.'
+	];
 	document.getElementById('day').innerHTML = date.getDate();
-	document.getElementById('month').innerHTML = date.getMonth() + 1;
+	document.getElementById('month').innerHTML = month[date.getMonth()];
 	document.getElementById('year').innerHTML = date.getFullYear();
 }
 time();
