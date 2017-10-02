@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel='stylesheet' type='text/css' href='css/index.css'>
 	<meta charset='utf-8'>
 	<title>To-Do</title>
 </head>
 <body>
 	<div class='box'>
 
-		<table class="timeNow">
-		<tr><td rowspan="2" class='day' id='day'>день</td><td class='month' id='month'>месяц</td> <td rowspan="2" colspan="2" class="now">TUESDAY</td></tr>
+		<table class='timeNow'>
+		<tr><td rowspan='2' class='day' id='day'>день</td><td class='month' id='month'>месяц</td> <td rowspan='2' colspan='2' class='now'>TUESDAY</td></tr>
 		<tr><td class='year' id='year'>год</td></tr>
 		</table>
 
-		<ul class='listToDo' id="listToDo">
+		<ul class='listToDo' id='listToDo'>
 		</ul>
 
 		<div class='inquiryToDo'>
-			<button class='addToDo' onclick='block("box-inquiry")'>+</button>
+			<button class='addToDo' onclick='disclosure("box-inquiry")'>+</button>
 
 			<div class="box-inquiry" id='box-inquiry' style="display:none">
 				<input type='text' class='inquiry' id='inquiry' placeholder='Введите задачу'>
-				<button onclick='toDoAdd()' class="buttonAdd">Add</button>
+				<button onclick='toDoAdd()' class='buttonAdd'>Add</button>
 			</div>
 		</div>
 	</div>

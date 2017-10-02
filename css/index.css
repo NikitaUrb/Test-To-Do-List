@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto.ftt);
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(../fonts/open-sans.ftt);
+}
+
+
 body {
 	background-color: #FFEFD5;
 	font-family: Roboto, Open Sans, sans-serif;
